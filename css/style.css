@@ -1,0 +1,965 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+body {
+}
+.btn-check:focus + .btn, .btn:focus {
+	outline: 0;
+	box-shadow: none;
+}
+.form-control:focus {
+	border-color: none;
+	box-shadow: 0 0 0 0;
+}
+html {
+    height: 100%;
+}
+
+body {
+    background: #E2E4E7;
+    padding: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    margin: 0;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+    
+.main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+
+}
+.section {
+    width: 100%;
+    height: 100vh;
+    background-size:  cover;
+    scroll-snap-align: start;
+}
+.section:nth-child(1) {
+    background: ;
+}
+.section:nth-child(2) {
+    background: ;
+}
+.section:nth-child(3) {
+    background: ;
+}
+.section:nth-child(3) {
+    background: ;
+}
+.section:nth-child(4) {
+    background: ;
+}
+.section:nth-child(5) {
+    background: ;
+}
+/*-=================================================================================== 
+                                Navbar CSS Start 
+===================================================================================-*/
+.navbar {
+    padding: 17px 1rem;
+    width: 100%;
+    z-index: 9999;
+    transition: all linear .4s;
+    background: #211d70;
+}
+/*
+
+.bg-two {
+    background: #1d701d;
+}
+*/
+
+.navbar-light .navbar-nav .nav-link {
+	font-size: 14px;
+	line-height: 27px;
+	color: #fff;
+	text-transform: uppercase;
+	padding-left: 0;
+	padding-right: 0;
+	transition: all linear .3s;
+	padding-top: 5px;
+	padding-bottom: 1px;
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition:all linear .3s;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active:after {
+    opacity: 1;
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-item {
+    padding: 0 15px;
+}
+
+
+.navbar .navbar-brand {
+    max-width: 232px;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover:after {
+    opacity: 1;
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #fff;
+}
+.navbar-toggler:focus {
+	text-decoration: none;
+	outline: 0;
+	box-shadow: none;
+}
+.dropdown-menu.show {
+	left: 14px;
+	width: 88%;
+	padding: 0;
+}
+.dropdown-divider {
+	margin: 0;
+}
+.dropdown-item {
+	font-size: 14px;
+	text-align: center;
+    transition: all linear .2s;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+	color: #44a226;
+    font-weight: 800;
+	background-color: #fff;
+}
+.navbar-brand img {
+    width: 100%;
+}
+
+
+/*--============================================================================== 
+                                Banner Part CSS Start 
+==============================================================================--*/
+#banner {
+    background: #f1f1f1;
+}
+#banner .banner-text h5 {
+	padding-top: 65px;
+	padding-bottom: 25px;
+	font-size: 30px;
+	line-height: 24px;
+    font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+}
+#banner .banner-text h4 {
+	padding-bottom: 60px;
+	font-size: 48px;
+	line-height:48px;
+    font-weight: 800;
+	color: #44a226;
+	text-transform: uppercase;
+}
+#banner .text h6 {
+	padding-bottom: 20px;
+	font-size: 21px;
+	line-height:24px;
+    font-weight: 700;
+	color: #000;
+}
+#banner .text p {
+	padding-bottom: 20px;
+	font-size: 18px;
+	line-height:24px;
+    font-weight: 400;
+	color: #000;
+}
+.lear-more .hp {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 12px 38px;
+    border-radius: 10px;
+    background: #44a226;
+    font-weight: 700;
+	color: #fff;
+}
+  .lear-more img {
+      margin-top: 25px;
+      width: 60px;
+}
+  
+/*--============================================================================== 
+                               Page 2  CSS Start 
+==============================================================================--*/
+.page2 {
+    background: linear-gradient(90deg, rgba(81,183,217,1) 57%, rgba(128,188,105,1) 100%);
+    position: relative;
+}
+.page2 .navbar {
+    background: transparent;
+}
+.slide-item {
+    padding-top: 100px;
+    position: relative;
+}
+.slide-item .text {
+	text-align: left;
+}
+.slide-item .text h2 {
+    font-size: 200px;
+    line-height: 85px;
+    color: rgba(255, 255, 255, 0.25);
+    text-align: left;
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+.slide-item .text h4 {
+    font-size: 72px;
+    line-height: 85px;
+    color: #fff;
+    text-align: left;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+}
+.slide-item .text h4::after {
+    position: absolute;
+    content: '';
+    bottom: -5px;
+    left: 0;
+    width: 300%;
+    height: 3px;
+    background: #fff;
+    z-index: 9;
+}
+.slide-item .text p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    text-align: left;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.slide-item .text a {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 12px 38px;
+    border-radius: 10px;
+    background: #fff;
+    font-weight: 700;
+	color: #00d4ff;
+    text-align: left;
+}
+.slide-item .text p span {
+    font-weight: 600;
+}
+.icons .fan {
+	position: absolute;
+	top: 30px;
+	left: 37%;
+	width: 230px;
+}
+.icons .cloud {
+	position: absolute;
+	top: 32%;
+	left: 36%;
+	width: 100px;
+}
+
+.slide-item .img {
+	position: relative;
+	z-index: 99;
+}
+
+
+
+
+
+
+
+
+
+.right {
+	position: absolute;
+	top: 50%;
+	right: 70px;
+	z-index: 99;
+	transform: translateY(-50%);
+	width: 50px;
+    cursor: pointer;
+}
+
+.slick-dots li{
+    width: 30px;
+    height: 30px;
+    background: purple;
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 29px;
+}
+.slick-dots {
+	position: none;
+	/* left: 50%; */
+	/* bottom: 50px; */
+	transform: none;
+	padding: 0;
+	text-align: left;
+}
+.slick-dots li button {
+    color: transparent;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border: 0;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.slick-dots li.slick-active button {
+    opacity: 1;
+}
+.page2 .lear-more {
+	position: relative;
+	top: 0;
+}
+  
+
+
+
+
+/*--============================================================================== 
+                               Page 3  CSS Start 
+==============================================================================--*/
+#page3 {
+    background: #211d70;
+}
+.page3 .project-item {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.page3 .text h4 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #44a226;
+    padding-bottom: 20px;
+}
+.page3 .text h6 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 24px;
+    padding-bottom: 25px;
+}
+.page3 .text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 24px;
+    padding-bottom: 50px;
+}
+.page3 .project-item p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+.page3 .project-item p span {
+    font-weight: 800;
+}
+.page3 .lear-more {
+    position: relative;
+	top: 80px;
+}
+
+
+
+
+
+
+
+
+
+/*--============================================================================== 
+                               Page 4  CSS Start 
+==============================================================================--*/
+
+#page4 {
+    background: #f1f1f1;
+}
+
+
+.page4 .image-upload h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff;
+}
+
+.page4 .image-upload {
+	width: 100%;
+	height: auto;
+	border: 4px solid #fff;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	position: relative;
+	text-align: center;
+	background: #44a226;
+	color: #666;
+	overflow: hidden;
+	padding: 10px 30px;
+	border-radius: 15px;
+	box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.19);
+}
+
+.page4 form img {
+	margin-bottom: 20px;
+	width: auto;
+	height: auto;
+	max-height: 400px;
+	width: auto;
+	border-radius: 5px;
+	overflow: hidden;
+	display: none;
+}
+
+
+.page4 .image-upload img {
+    height: 100%!important;
+    width: auto!important;
+    border-radius: 0px;
+    margin: 0 auto;
+}
+
+.page4 .image-upload i {
+    font-size: 6em;
+    color: #ccc;
+}
+
+
+.page4 .image-upload input {
+    cursor: pointer;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.page4 input {
+    height: 43px;
+    line-height: 43px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+
+
+.page4 .title h4 {
+	font-size: 48px;
+	font-weight: 800;
+	color: #44a226;
+	padding-bottom: 20px;
+    padding-top: 73px;
+}
+.page4 .form-label {
+	font-size: 24px;
+	font-weight: 700;
+    line-height: 24px;
+	color: #000;
+	padding-bottom: 5px;
+    padding-top: 10px;
+}
+.page4 .form-control {
+	font-size: 24px;
+	font-weight: 400;
+	color: #000;
+	height: 60px;
+	border-radius: 15px;
+	border: 1px solid #000;
+	text-transform: capitalize;
+    margin-bottom: 0;
+}
+.page4 .btn {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	color: #ddd;
+	height: 60px;
+	background: #fff;
+	height: 60px;
+	border-radius: 10px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	margin-left: 8px;
+	box-shadow: 0 0 3px 6px #dddddd08;
+    transition: all linear .3s;
+}
+.page4 .btn:hover {
+	color: #fff;
+    background: #44a226;
+}
+.page4 .left h4 {
+	font-size: 48px;
+	font-weight: 800;
+	color: #000;
+	padding-bottom: 20px;
+    padding-top: 20px;
+}
+.page4 .left p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #000;
+    line-height: 24px;
+	padding-bottom: 10px;
+}
+.page4 .left h6 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #000;
+    line-height: 21px;
+    padding-top: 10px;
+}
+.page4 .left h6 a {
+	color: #000;
+}
+.page4 .left p span {
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+.page4 .right-r {
+    width: 100%;
+    margin-left: 30px;
+}
+.page4 .right-r .alert-warning {
+	color: #664d03;
+	background-color: none;
+	border-color: none;
+	background: url(../images/icons/message.png);
+	height: 360px;
+	border: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 100px 77px;
+}
+.alert-dismissible .btn-close {
+	position: absolute;
+	top: 16px;
+	right: 50px;
+	z-index: 2;
+	padding: 1.25rem 1rem;
+}
+.alert-dismissible .btn-close img {
+    width: 15px;
+}
+.btn-close {
+	color: #000;
+	background: none;
+	opacity: 1;
+}
+.btn-close:focus {
+	box-shadow: 0 0 0 0;
+}
+.right-r .alert {
+    margin-left: 30px;
+}
+.right-r .alert h6 {
+    color: #44a226;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.right-r .alert p {
+    color: #000;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.right-r .alert p span {
+    font-weight: 700;
+}
+
+.right-r .img {
+    margin-top: -60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--============================================================================== 
+                               Page 5  CSS Start 
+==============================================================================--*/
+.page5 {
+    background: #f1f1f1;
+}
+.page5 .title h4 {
+	font-size: 48px;
+	font-weight: 800;
+	color: #211d70;
+	padding-bottom: 20px;
+    padding-top: 50px;
+}
+.page5 .title h6 {
+	font-size: 18px;
+	font-weight: 700;
+    line-height: 24px;
+	color: #000;
+	padding-bottom: 28px;
+}
+.page5 .title p {
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 24px;
+	color: #000;
+	padding-bottom: 25px;
+}
+
+.page5 .donation-item {
+    position: relative;
+}
+.page5 .donation-item .text {
+    position: absolute;
+    top: 67%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.page5 .donation-item .text h5 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #e86054;
+}
+.page5 .donation-item .text h6 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #e86054;
+}
+.page5 .donation-item .text.item2 h5 {
+    color: #fcb855;
+}
+.page5 .donation-item .text.item2 h6 {
+    color: #fcb855;
+}
+.page5 .donation-item .text.item3 h5 {
+    color: #81bc66;
+}
+.page5 .donation-item .text.item3 h6 {
+    color: #81bc66;
+}
+.page5 .donation-item p {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+}
+.page5 .lear-more {
+	position: relative;
+	top: -14px;
+}
+
+
+
+
+
+
+
+
+/*--============================================================================== 
+                               Page 6  CSS Start 
+==============================================================================--*/
+
+#page6 {
+    background: url(../images/banner/footer-b.jpg);
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.page6 .container {
+    height: 100%;
+    position: relative;
+}
+.page6 .lear-more {
+	position: absolute;
+	top: 69%;
+	left: 50%;
+    transform: translateX(-50%);
+}
+.page6 .fild h4 {
+	font-size: 48px;
+	font-weight: 800;
+	color: #44a226;
+	padding-bottom: 20px;
+	padding-top: 66px;
+}
+.page6 .fild h6 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #000;
+    line-height: 24px;
+	padding-bottom: 28px;
+}
+.page6 .fild p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #000;
+    line-height: 24px;
+	padding-bottom: 28px;
+    padding-bottom: 87px;
+}
+.page6 .fild .img {
+    padding: 0 10px;
+}
+.page6 .fild .img1 {
+    position: relative;
+    top: -10px;
+}
+.page6 .fild .img3 {
+    position: relative;
+    top: 5px;
+}
+
+
+
+
+
+
+/*--============================================================================== 
+                               Page 7  CSS Start 
+==============================================================================--*/
+#page7 {
+    background: #211d70;
+}
+#page7 .container-fluid {
+	background: #fff;
+	height: 100%;
+}
+.page7 .f-logo {
+    width: 245px;
+}
+.page7 .f-logo img {
+    width: 100%;
+}
+.page7 hr {
+    color: #ddd;
+    margin: 21px 0
+}
+.page7 .footer-item {
+    color: #fff;
+}
+.page7 .footer-item h6 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #44a126;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.page7 .footer-item p {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+.page7 .footer-item ul {
+	padding: 0 20px;
+}
+.page7 .footer-item li a {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff;
+    transition: all linear .3s
+}
+.page7 .footer-item li a:hover {
+    font-weight: 800;
+    color: #44a226;
+}
+.page7 .footer-item hr {
+    margin: 0;
+}
+.page7 a i {
+	background: #fff;
+	width: 40px;
+	height: 40px;
+	color: #000;
+	font-size: 20px;
+	line-height: 36px;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #000;
+	margin: 0 8px;
+    margin-bottom: 20px;
+}
+.page7 a i.white {
+	color: #fff;
+    cursor: auto
+}
+.page7 .copy-text p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+}
+.page7 .copy-text p a {
+    color: #000;
+    transition: all linear .3s;
+}
+.page7 .copy-text p a:hover {
+    color: #44a126;
+}
+.page7 .copy-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/*slider css start*/
+
+.carousel-indicators [data-bs-target] {
+	box-sizing: content-box;
+	flex: 0 1 auto;
+	width: 230px;
+	height: 157px;
+	padding: 0;
+	margin-right: 0;
+	margin-left: 0;
+	text-indent: 0;
+	cursor: pointer;
+	background-color: none;
+	background-clip: padding-box;
+    background: url(../images/slide/steps_inactive.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+	border: 0;
+	border-top: 0;
+	border-bottom: 0;
+	opacity: 1;
+    text-align: left;
+    padding-left: 20px;
+}
+.carousel-indicators [data-bs-target]:nth-child(6) {
+    background: none;
+}
+.carousel-indicators .active:nth-child(6) {
+    background: url(../images/slide/steps_active.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.carousel-indicators {
+	position: absolute;
+	right: 0;
+	bottom: -140px;
+	left: 0;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+.carousel-indicators .active {
+	opacity: 1;
+    background: url(../images/slide/steps_active.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.carousel-indicators button .h3-font {
+    font-size: 93px;
+    line-height: 85px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.49);
+}
+.carousel-indicators button .h6-font {
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.49);
+}
+.carousel-indicators .active .h3-font {
+    color: #fff;
+}
+.carousel-indicators .active .h6-font {
+    color: #fff;
+}

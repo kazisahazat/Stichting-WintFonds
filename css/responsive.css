@@ -1,0 +1,2260 @@
+/*====================== Extra small devices 
+================================================================*/
+@media (max-width: 599.98px) {
+    
+    /*navbar part start*/
+    .navbar::after {
+	display: none;
+}
+    .navbar-light .navbar-nav .nav-item {
+	padding: 0 0;
+}
+    .navbar .navbar-brand {
+	max-width: 95px;
+	width: 100%;
+}
+.navbar {
+	background: none;
+	background-color: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #51b7d9;
+}
+    .navbar .header-serch input {
+	width: 100%;
+}
+    .navbar a.web-color {
+	position: absolute;
+	right: 48px;
+	bottom: 10px;
+}
+    .navbar-nav {
+	clip-path: none;
+	position: relative;
+	right: 0;
+        background: #211d70;
+        padding: 5px 10px;
+}
+    .collapse {
+	filter: none;
+}
+.dropdown-menu.show {
+	width: 100%;
+}  
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 1 css start  */
+#banner .banner-text h5 {
+	padding-top: 95px;
+	padding-bottom: 20px;
+	font-size: 19px;
+	line-height: 24px;
+} 
+#banner .banner-text h4 {
+	padding-bottom: 30px;
+	font-size: 21px;
+	line-height: 28px;
+} 
+#banner .text h6 {
+	padding-bottom: 20px;
+	font-size: 14px;
+	line-height: 20px;
+}
+#banner .text p {
+	padding-bottom: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #000;
+}   
+#banner {
+	background: #f1f1f1;
+	height: auto;
+	padding-bottom: 20px;
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 2 css start  */
+#page2 {
+	height: auto;
+    padding-top: 70px;
+	padding-bottom: 90px;
+}
+.slide-item .text h2 {
+	font-size: 50px;
+	line-height: 45px;
+    padding-bottom: 0;
+}
+.slide-item .text h4 {
+	font-size: 28px;
+	line-height: 37px;
+}   
+.slide-item .text p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}   
+.slide-item .text a {
+	font-size: 14px;
+	line-height: 18px;
+	padding: 7px 22px;
+	border-radius: 8px;
+} 
+.icons {
+	display: none;
+}    
+.slide-item .img  {
+	margin-bottom: 20px;
+}
+.carousel-indicators button .h3-font {
+	font-size: 20px;
+	line-height: 39px;
+} 
+.carousel-indicators button .h6-font {
+	display: none;
+}  
+.slide-item {
+	padding-top: 40px;
+} 
+.page2 .lear-more {
+	top: 72px;
+}  
+.slide-item .text {
+	padding-bottom: 7px;
+}  
+.right {
+	display: none;
+} 
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+/*page 3 css start  */
+#page3 {
+    padding-top: 100px;
+    padding-bottom: 120px;
+	height: auto;
+}
+.page3 .text h4 {
+	font-size: 21px;
+}
+.page3 .text h6 {
+	font-size: 14px;
+	line-height: 20px;
+}  
+.page3 .text p {
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 20px;
+	padding-bottom: 30px;
+}    
+.page3 .project-item {
+	padding-bottom: 30px;
+}  
+.page3 .project-item p {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	padding-top: 20px;
+}  
+.down {
+	display: none;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 3 css start  */
+#page4 {
+	background: #f1f1f1;
+	height: auto;
+    padding-top: 70px;
+}
+.page4 .title h4 {
+	font-size: 21px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}  
+.page4 .form-label {
+	font-size: 16px;
+	line-height: 20px;
+}
+.page4 .btn {
+	font-size: 10px;
+	height: 40px;
+} 
+.page4 .form-control {
+	font-size: 14px;
+	height: 40px;
+    border-radius: 8px;
+}    
+.page4 .left h4 {
+	font-size: 21px;
+}  
+.page4 .left p {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page4 .image-upload h5 {
+	font-size: 14px;
+	line-height: 20px;
+}  
+.right-r .alert h6 {
+	font-size: 14px;
+	line-height: 20px;
+}   
+.right-r .alert p {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page4 .right-r {
+	width: 100%;
+	margin-left: 0;
+}   
+.page4 .right-r .alert-warning {
+	height: 239px;
+	padding: 38px 35px;
+	margin: 0;
+	width: 312px;
+} 
+.alert-dismissible .btn-close {
+	right: 10px;
+} 
+.right-r .img {
+	margin-top: -30px;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 5 css start  */
+#page5 {
+	height: auto;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.page5 .title h4 {
+	font-size: 21px;
+	padding-bottom: 20px;
+	padding-top: 22px;
+} 
+.page5 .title h6 {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page5 .title p {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page5 .donation-item .text {
+	top: 67%;
+}  
+.page5 .donation-item .text h5 {
+	font-size: 32px;
+}   
+.page5 .donation-item .text h6 {
+	font-size: 16px;
+	line-height: 26px;
+}  
+.page5 .donation-item p {
+	font-size: 14px;
+	line-height: 20px;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 6 css start  */
+#page6 {
+	height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.page6 .fild h4 {
+	font-size: 21px;
+	font-weight: 800;
+	color: #44a226;
+	padding-bottom: 20px;
+	padding-top: 66px;
+}
+.page6 .fild h6 {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page6 .fild p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 40px;
+}
+.page6 .lear-more {
+	position: relative;
+	top: 0;
+	left: 50%;
+	padding-top: 30px;
+} 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 7 css start  */
+#page7 {
+    padding-top: 100px;
+	height: auto;
+}
+    
+    
+    
+    
+    
+    
+}
+
+/*=========================== Small devices 
+=======================================================================*/
+@media (min-width: 600px) and (max-width: 767.98px) {
+    
+        
+    /*navbar part start*/
+    .navbar::after {
+	display: none;
+}
+    .navbar-light .navbar-nav .nav-item {
+	padding: 0 0;
+}
+    .navbar .navbar-brand {
+	max-width: 95px;
+	width: 100%;
+}
+.navbar {
+	background: none;
+	background-color: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #51b7d9;
+}
+    .navbar .header-serch input {
+	width: 100%;
+}
+    .navbar a.web-color {
+	position: absolute;
+	right: 48px;
+	bottom: 10px;
+}
+    .navbar-nav {
+	clip-path: none;
+	position: relative;
+	right: 0;
+        background: #211d70;
+        padding: 5px 10px;
+}
+    .collapse {
+	filter: none;
+}
+.dropdown-menu.show {
+	width: 100%;
+}  
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 1 css start  */
+#banner .banner-text h5 {
+	padding-top: 95px;
+	padding-bottom: 20px;
+	font-size: 19px;
+	line-height: 24px;
+} 
+#banner .banner-text h4 {
+	padding-bottom: 30px;
+	font-size: 21px;
+	line-height: 28px;
+} 
+#banner .text h6 {
+	padding-bottom: 20px;
+	font-size: 14px;
+	line-height: 20px;
+}
+#banner .text p {
+	padding-bottom: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #000;
+}   
+#banner {
+	background: #f1f1f1;
+	height: auto;
+	padding-bottom: 50px;
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 2 css start  */
+#page2 {
+    padding-top: 100px;
+	padding-bottom: 90px;
+}
+.slide-item .text h2 {
+	font-size: 50px;
+	line-height: 45px;
+    padding-bottom: 0;
+}
+.slide-item .text h4 {
+	font-size: 28px;
+	line-height: 37px;
+}   
+.slide-item .text p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}   
+.slide-item .text a {
+	font-size: 14px;
+	line-height: 18px;
+	padding: 7px 22px;
+	border-radius: 8px;
+} 
+.icons {
+	display: none;
+}    
+.slide-item .img  {
+	margin-bottom: 20px;
+}
+.carousel-indicators button .h3-font {
+	font-size: 20px;
+	line-height: 39px;
+} 
+.carousel-indicators button .h6-font {
+	display: none;
+}  
+.slide-item {
+	padding-top: 40px;
+} 
+.page2 .lear-more {
+	top: 72px;
+}  
+.slide-item .text {
+	padding-bottom: 7px;
+}  
+.right {
+	display: none;
+} 
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+/*page 3 css start  */
+#page3 {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.page3 .text h4 {
+	font-size: 21px;
+}
+.page3 .text h6 {
+	font-size: 14px;
+	line-height: 20px;
+}  
+.page3 .text p {
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 20px;
+	padding-bottom: 30px;
+}    
+.page3 .project-item {
+	padding-bottom: 30px;
+}  
+.page3 .project-item p {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	padding-top: 20px;
+}  
+.down {
+	display: none;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 3 css start  */
+#page4 {
+    padding-top: 70px;
+	background: #f1f1f1;
+}
+.page4 .title h4 {
+	font-size: 21px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}  
+.page4 .form-label {
+	font-size: 16px;
+	line-height: 20px;
+}
+.page4 .btn {
+	font-size: 10px;
+	height: 40px;
+} 
+.page4 .form-control {
+	font-size: 14px;
+	height: 40px;
+    border-radius: 8px;
+}    
+.page4 .left h4 {
+	font-size: 21px;
+}  
+.page4 .left p {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page4 .image-upload h5 {
+	font-size: 14px;
+	line-height: 20px;
+}  
+.right-r .alert h6 {
+	font-size: 14px;
+	line-height: 20px;
+}   
+.right-r .alert p {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page4 .right-r {
+	width: 100%;
+	margin-left: 0;
+}   
+.page4 .right-r .alert-warning {
+	height: 239px;
+	padding: 38px 35px;
+	margin: 0;
+	width: 312px;
+} 
+.alert-dismissible .btn-close {
+	right: 10px;
+} 
+.right-r .img {
+	margin-top: -30px;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 5 css start  */
+#page5 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.page5 .title h4 {
+	font-size: 21px;
+	padding-bottom: 20px;
+	padding-top: 22px;
+} 
+.page5 .title h6 {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page5 .title p {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page5 .donation-item .text {
+	top: 67%;
+}  
+.page5 .donation-item .text h5 {
+	font-size: 32px;
+}   
+.page5 .donation-item .text h6 {
+	font-size: 16px;
+	line-height: 26px;
+}  
+.page5 .donation-item p {
+	font-size: 14px;
+	line-height: 20px;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 6 css start  */
+#page6 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.page6 .fild h4 {
+	font-size: 21px;
+	font-weight: 800;
+	color: #44a226;
+	padding-bottom: 20px;
+	padding-top: 66px;
+}
+.page6 .fild h6 {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page6 .fild p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 40px;
+}
+.page6 .lear-more {
+	position: relative;
+	top: 0;
+	left: 50%;
+    padding-top: 30px;
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 7 css start  */
+#page7 {
+    padding-top: 100px;
+}
+    
+    
+}
+
+/*============================ Medium devices 
+=========================================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+        
+    /*navbar part start*/
+    .navbar::after {
+	display: none;
+}
+    .navbar-light .navbar-nav .nav-item {
+	padding: 0 0;
+}
+    .navbar .navbar-brand {
+	max-width: 95px;
+	width: 100%;
+}
+.navbar {
+	background: none;
+	background-color: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #51b7d9;
+}
+    .navbar .header-serch input {
+	width: 100%;
+}
+    .navbar a.web-color {
+	position: absolute;
+	right: 48px;
+	bottom: 10px;
+}
+    .navbar-nav {
+	clip-path: none;
+	position: relative;
+	right: 0;
+        background: #211d70;
+        padding: 5px 10px;
+}
+    .collapse {
+	filter: none;
+}
+.dropdown-menu.show {
+	width: 100%;
+}  
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 1 css start  */
+#banner .banner-text h5 {
+	padding-top: 95px;
+	padding-bottom: 20px;
+	font-size: 19px;
+	line-height: 24px;
+} 
+#banner .banner-text h4 {
+	padding-bottom: 30px;
+	font-size: 26px;
+	line-height: 35px;
+}
+#banner .text h6 {
+	padding-bottom: 20px;
+	font-size: 14px;
+	line-height: 20px;
+}
+#banner .text p {
+	padding-bottom: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #000;
+}   
+#banner {
+	background: #f1f1f1;
+	height: auto;
+	padding-bottom: 20px;
+	height: auto;
+	height: 100%;
+}  
+  #banner .lear-more {
+	margin-top: 50px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 2 css start  */
+#page2 {
+	padding-top: 50px;
+	padding-bottom: 90px;
+}
+.slide-item .text h2 {
+	font-size: 50px;
+	line-height: 45px;
+    padding-bottom: 0;
+}
+.slide-item .text h4 {
+	font-size: 28px;
+	line-height: 37px;
+}   
+.slide-item .text p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}   
+.slide-item .text a {
+	font-size: 14px;
+	line-height: 18px;
+	padding: 7px 22px;
+	border-radius: 8px;
+} 
+.icons {
+	display: none;
+}    
+.slide-item .img  {
+	margin-bottom: 20px;
+}
+.carousel-indicators button .h3-font {
+	font-size: 20px;
+	line-height: 39px;
+} 
+.carousel-indicators button .h6-font {
+	font-size: 10px;
+}
+.slide-item {
+	padding-top: 40px;
+} 
+.page2 .lear-more {
+	top: 72px;
+}  
+.slide-item .text {
+	padding-bottom: 7px;
+}  
+
+.slide-item .img {
+	margin-bottom: 20px;
+	margin-top: 62px;
+}
+ .slide-item .img .w-100 {
+	width: 70% !important;
+}
+    
+    
+    
+    
+    
+
+    
+    
+/*page 3 css start  */
+#page3 {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.page3 .text h4 {
+	font-size: 26px;
+}
+.page3 .text h6 {
+	font-size: 14px;
+	line-height: 20px;
+}  
+.page3 .text p {
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 20px;
+	padding-bottom: 30px;
+}    
+.page3 .project-item {
+	padding-bottom: 30px;
+}  
+.page3 .project-item p {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	padding-top: 20px;
+}  
+.down {
+	display: none;
+}
+.page3 .lear-more {
+	position: relative;
+	top: 23px;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 3 css start  */
+#page4 {
+    padding-top: 100px;
+	background: #f1f1f1;
+}
+.page4 .title h4 {
+	font-size: 26px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+} 
+.page4 .form-label {
+	font-size: 16px;
+	line-height: 20px;
+}
+.page4 .btn {
+	font-size: 10px;
+	height: 40px;
+} 
+.page4 .form-control {
+	font-size: 14px;
+	height: 40px;
+    border-radius: 8px;
+}    
+.page4 .left h4 {
+	font-size: 21px;
+}  
+.page4 .left p {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page4 .image-upload h5 {
+	font-size: 14px;
+	line-height: 20px;
+}  
+.right-r .alert h6 {
+	font-size: 14px;
+	line-height: 20px;
+}   
+.right-r .alert p {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page4 .right-r {
+	width: 100%;
+	margin-left: 0;
+}   
+.page4 .right-r .alert-warning {
+	height: 239px;
+	padding: 38px 35px;
+	margin: 0;
+	width: 312px;
+} 
+.alert-dismissible .btn-close {
+	right: 10px;
+} 
+.right-r .img {
+	margin-top: -30px;
+}   
+.right-r .img .w-100 {
+	width: 41% !important;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 5 css start  */
+#page5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.page5 .title h4 {
+	font-size: 26px;
+	padding-bottom: 20px;
+	padding-top: 74px;
+}
+.page5 .title h6 {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page5 .title p {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page5 .donation-item .text {
+	top: 58%;
+} 
+.page5 .donation-item .text h5 {
+	font-size: 32px;
+}   
+.page5 .donation-item .text h6 {
+	font-size: 16px;
+	line-height: 26px;
+}  
+.page5 .donation-item p {
+	font-size: 14px;
+	line-height: 20px;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 6 css start  */
+#page6 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.page6 .fild h4 {
+	font-size: 26px;
+	font-weight: 800;
+	color: #44a226;
+	padding-bottom: 20px;
+	padding-top: 70px;
+}
+.page6 .fild h6 {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page6 .fild p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 40px;
+}
+.page6 .lear-more {
+	position: relative;
+	top: 68px;
+	left: 50%;
+	padding-top: 30px;
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*page 7 css start  */
+#page7 {
+	padding-top: 100px;
+}
+    
+    
+}
+
+/*============================ Large devices 
+=========================================================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar .navbar-brand {
+	max-width: 170px;
+}
+#banner .banner-text h5 {
+	padding-top: 20px;
+	padding-bottom: 25px;
+	font-size: 24px;
+	line-height: 16px;
+}
+#banner .banner-text h4 {
+	padding-bottom: 12px;
+	font-size: 35px;
+	line-height: 40px;
+}
+#banner .text h6 {
+	font-size: 16px;
+	line-height: 20px;
+} 
+#banner .text p {
+	padding-bottom: 20px;
+	font-size: 14px;
+	line-height: 20px;
+}    
+.lear-more {
+	position: relative;
+	top: 0;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page 2 CSS start*/
+.slide-item .text h2 {
+	font-size: 120px;
+	padding-bottom: 20px;
+}   
+.slide-item .text h4 {
+	font-size: 49px;
+	line-height: 53px;
+}  
+.slide-item .text p {
+	font-size: 16px;
+	line-height: 22px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}   
+.slide-item .text a {
+	font-size: 16px;
+	padding: 10px 30px;
+}   
+.page2 .lear-more {
+	position: relative;
+	top: 105px;
+} 
+.slide-item .img .w-100 {
+	width: 85% !important;
+}
+.slide-item .text {
+	padding-bottom: 30px;
+} 
+    
+    
+    
+    
+    
+    
+/*Page 3 CSS start*/
+.page3 .text h4 {
+	font-size: 35px;
+}
+.page3 .text h6 {
+	font-size: 16px;
+}
+.page3 .text p {
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 20px;
+	padding-bottom: 50px;
+}  
+.page3 .project-item p {
+	font-size: 14px;
+	line-height: 20px;
+}   
+ .page3 .w-100 {
+	width: 100% !important;
+}  
+.page3 .lear-more {
+	position: relative;
+	top: 25px;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page 4 CSS start*/
+.page4 .title h4 {
+	font-size: 35px;
+	padding-top: 10px;
+} 
+.page4 .form-label {
+	font-size: 16px;
+}
+.page4 .btn {
+	font-size: 16px;
+	height: 50px;
+}
+.page4 .form-control {
+	font-size: 18px;
+	height: 50px;
+}
+.page4 .left h4 {
+	font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+.page4 .left p {
+	font-size: 16px;
+	line-height: 22px;
+}  
+.page4 .image-upload h5 {
+	font-size: 17px;
+}   
+.page4 .left h6 {
+	font-size: 14px;
+	line-height: 21px;
+	padding-top: 0;
+}  
+.right-r .img {
+	margin-top: -64px;
+}
+    .right-r .img .w-100 {
+	width: 70% !important;
+}
+    .page4 {
+        position: relative;
+    }
+.page4 .lear-more {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 99;
+	top: 88%;
+}
+  
+.right-r .alert h6 {
+	font-size: 21px;
+}  
+.right-r .alert p {
+	font-size: 16px;
+}   
+.alert-dismissible .btn-close {
+	top: 23px;
+	right: 32px;
+} 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+/*Page 5 CSS start*/
+.page5 .title h4 {
+	font-size: 35px;
+	padding-bottom: 6px;
+	padding-top: 10px;
+}
+.page5 .title h6 {
+	font-size: 16px;
+    padding-bottom: 10px;
+}   
+.page5 .title p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 0px;
+}  
+.page5 .donation-item .text {
+	top: 65%;
+}  
+.page5 .donation-item .text h5 {
+	font-size: 34px;
+}  
+.page5 .donation-item .text h6 {
+	font-size: 17px;
+	line-height: 36px;
+}  
+.page5 .donation-item p {
+	font-size: 14px;
+	line-height: 20px;
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page 6 CSS start*/
+.page6 .fild h4 {
+	font-size: 35px;
+}
+.page6 .fild h6 {
+	font-size: 12px;
+	line-height: 20px;
+}   
+.page6 .fild p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 67px;
+}   
+.page6 .lear-more {
+	position: absolute;
+	top: 66%;
+	left: 50%;
+    transform: translateX(-50%);
+}  
+.lear-more .hp {
+	font-size: 16px;
+	line-height: 21px;
+	padding: 10px 30px;
+	border-radius: 10px;
+	background: #44a226;
+	font-weight: 700;
+	color: #fff;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+/*============================ Extra Large devices 
+=========================================================================*/
+@media (min-width: 1200px) and (max-width: 1399.98px)  {
+    .navbar .navbar-brand {
+	max-width: 170px;
+}
+#banner .banner-text h5 {
+	padding-top: 20px;
+	padding-bottom: 25px;
+	font-size: 24px;
+	line-height: 16px;
+}
+#banner .banner-text h4 {
+	padding-bottom: 12px;
+	font-size: 35px;
+	line-height: 40px;
+}
+#banner .text h6 {
+	font-size: 16px;
+	line-height: 20px;
+} 
+#banner .text p {
+	padding-bottom: 20px;
+	font-size: 14px;
+	line-height: 20px;
+}    
+.lear-more {
+	position: relative;
+	top: 0;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page 2 CSS start*/
+.slide-item .text h2 {
+	font-size: 120px;
+	padding-bottom: 20px;
+}   
+.slide-item .text h4 {
+	font-size: 49px;
+	line-height: 53px;
+}  
+.slide-item .text p {
+	font-size: 16px;
+	line-height: 22px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}   
+.slide-item .text a {
+	font-size: 16px;
+	padding: 10px 30px;
+}   
+.page2 .lear-more {
+	position: relative;
+	top: 105px;
+} 
+.slide-item .img .w-100 {
+	width: 85% !important;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page 3 CSS start*/
+.page3 .text h4 {
+	font-size: 35px;
+}
+.page3 .text h6 {
+	font-size: 16px;
+}
+.page3 .text p {
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 20px;
+	padding-bottom: 50px;
+}  
+.page3 .project-item p {
+	font-size: 14px;
+	line-height: 20px;
+}   
+ .page3 .w-100 {
+	width: 100% !important;
+}  
+.page3 .lear-more {
+	position: relative;
+	top: 25px;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page 4 CSS start*/
+.page4 .title h4 {
+	font-size: 35px;
+	padding-top: 10px;
+} 
+.page4 .form-label {
+	font-size: 16px;
+}
+.page4 .btn {
+	font-size: 16px;
+	height: 50px;
+}
+.page4 .form-control {
+	font-size: 18px;
+	height: 50px;
+}
+.page4 .left h4 {
+	font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+.page4 .left p {
+	font-size: 16px;
+	line-height: 22px;
+}  
+.page4 .image-upload h5 {
+	font-size: 17px;
+}   
+.page4 .left h6 {
+	font-size: 14px;
+	line-height: 21px;
+	padding-top: 0;
+}  
+.right-r .img {
+	margin-top: -64px;
+}
+    .right-r .img .w-100 {
+	width: 70% !important;
+}
+    .page4 {
+        position: relative;
+    }
+.page4 .lear-more {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 99;
+	top: 88%;
+}  
+  
+.right-r .alert h6 {
+	font-size: 21px;
+}  
+.right-r .alert p {
+	font-size: 16px;
+}   
+.alert-dismissible .btn-close {
+	top: 15px;
+	right: 56px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+/*Page 5 CSS start*/
+.page5 .title h4 {
+	font-size: 35px;
+	padding-bottom: 6px;
+	padding-top: 10px;
+}
+.page5 .title h6 {
+	font-size: 16px;
+    padding-bottom: 10px;
+}   
+.page5 .title p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 0px;
+}  
+.page5 .donation-item .text {
+	top: 67%;
+}  
+.page5 .donation-item .text h5 {
+	font-size: 34px;
+}  
+.page5 .donation-item .text h6 {
+	font-size: 17px;
+	line-height: 36px;
+}  
+.page5 .donation-item p {
+	font-size: 14px;
+	line-height: 20px;
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page 6 CSS start*/
+.page6 .fild h4 {
+	font-size: 35px;
+}
+.page6 .fild h6 {
+	font-size: 12px;
+	line-height: 20px;
+}   
+.page6 .fild p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 67px;
+}   
+.page6 .lear-more {
+	position: absolute;
+	top: 66%;
+	left: 50%;
+    transform: translateX(-50%);
+}  
+.lear-more .hp {
+	font-size: 16px;
+	line-height: 21px;
+	padding: 10px 30px;
+	border-radius: 10px;
+	background: #44a226;
+	font-weight: 700;
+	color: #fff;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+/*============================ Extra Extra Large devices 
+=========================================================================*/
+@media (min-width: 1400px)  and (max-width: 1599.98px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	max-width: 1060px;
+}
+    
+.navbar .navbar-brand {
+	max-width: 190px;
+}
+.navbar {
+	padding: 5px 1rem;
+}  
+    
+    
+    
+    
+    
+    /*banner part css*/
+    #banner .banner-text h5 {
+        padding-top: 40px;
+	font-size: 25px;
+        padding-bottom: 20px;
+}
+#banner .banner-text h4 {
+	padding-bottom: 40px;
+	font-size: 36px;
+}   
+#banner .text h6 {
+	padding-bottom: 20px;
+	font-size: 16px;
+	line-height: 18px;
+}
+#banner .text p {
+	padding-bottom: 20px;
+	font-size: 14px;
+	line-height: 18px;
+}  
+#banner .lear-more {
+	position: relative;
+	top: -115px;
+}
+.lear-more .hp {
+	font-size: 15px;
+	padding: 10px 24px;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page2 part css*/
+.slide-item .text h2 {
+	font-size: 150px;
+	padding-bottom: 30px;
+}
+.slide-item .text h4 {
+	font-size: 55px;
+	line-height: 71px;
+	margin-bottom: 30px;
+}
+.slide-item .text p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 40px;
+	padding-right: 103px;
+}
+.slide-item .text a {
+	font-size: 15px;
+	padding: 10px 24px;
+}
+ .slide-item .img {
+     padding-left: 30px;
+}
+.slide-item {
+	padding-top: 20px;
+}
+.page2 .lear-more {
+	position: relative;
+	top: 127px;
+}  
+.carousel-indicators button .h3-font {
+	font-size: 70px;
+	line-height: 67px;
+}  
+.carousel-indicators button .h6-font {
+	font-size: 18px;
+	line-height: 23px;
+}   
+.icons .fan {
+	top: 0;
+}   
+.icons .cloud {
+	top: 27%;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page3 part css*/
+.page3 .text h4 {
+	font-size: 36px;
+	padding-bottom: 15px;
+} 
+.page3 .text h6 {
+	font-size: 14px;
+	line-height: 18px;
+	padding-bottom: 20px;
+}
+.page3 .text p {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 36px;
+	padding-bottom: 35px;
+}  
+.page3 .project-item p {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page3 .lear-more {
+    position: relative;
+	top: 45px;
+}
+  
+ 
+    
+    
+    
+    
+    
+    
+/*Page4 part css*/
+.page4 .title h4 {
+	font-size: 36px;
+	padding-bottom: 3px;
+	padding-top: 9px;
+}
+.page4 .form-label {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #000;
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+.page4 .form-control {
+	font-size: 18px;
+	height: 45px;
+    border-radius: 13px;
+}  
+.page4 .btn {
+	font-size: 14px;
+	height: 45px;
+}  
+.page4 .left h4 {
+	font-size: 36px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}  
+.page4 .image-upload h5 {
+	font-size: 18px;
+	line-height: 23px;
+}   
+.page4 .left p {
+	font-size: 14px;
+	line-height: 20px;
+}
+.page4 .left h6 {
+	font-size: 14px;
+	padding-top: 0px;
+}  
+.right-r .img .w-100 {
+	width: 82% !important;
+} 
+    .page4 {
+        position: relative;
+    }
+.page4 .lear-more {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}  
+    
+    
+    
+    
+    
+    
+/*Page5 part css*/
+.page5 .title h4 {
+	font-size: 36px;
+	padding-bottom: 4px;
+	padding-top: 0px;
+}  
+.page5 .title h6 {
+	font-size: 14px;
+	line-height: 24px;
+	padding-bottom: 10px;
+}
+.page5 .title p {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 72px;
+	padding-bottom: 0px;
+} 
+.page5 .donation-item .text {
+	top: 66%;
+}  
+.page5 .donation-item .text h5 {
+	font-size: 36px;
+}  
+.page5 .donation-item .text h6 {
+	font-size: 18px;
+    line-height: 24px;
+}  
+.page5 .donation-item p {
+	font-size: 14px;
+	line-height: 20px;
+}
+.page5 .donation-item .w-100 {
+	width: 90% !important;
+}
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page6 part css*/
+.page6 .fild h4 {
+	font-size: 36px;
+	padding-bottom: 20px;
+	padding-top: 50px;
+}  
+.page6 .fild h6 {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 20px;
+}  
+.page6 .fild p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 70px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page7 part css*/
+.page7 .footer-item li a {
+	font-size: 11px;
+	line-height: 24px;
+}
+.page7 .footer-item h6 {
+	font-size: 16px;
+	line-height: 30px;
+} 
+.page7 .footer-item ul {
+	padding: 0px 40px;
+}  
+.page7 .f-logo {
+	width: 200px;
+} 
+.page7 a i {
+	width: 35px;
+	height: 35px;
+	font-size: 17px;
+	line-height: 32px;
+}   
+.page7 .copy-text p {
+	font-size: 12px;
+	line-height: 20px;
+}  
+.page7 .copy-text {
+	padding-top: 15px;
+	padding-bottom: 15px;
+} 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+@media (min-width: 1600px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	max-width: 1060px;
+}
+    
+.navbar .navbar-brand {
+	max-width: 190px;
+}
+.navbar {
+	padding: 5px 1rem;
+}  
+    
+    
+    
+    
+    
+    /*banner part css*/
+    #banner .banner-text h5 {
+	font-size: 25px;
+}
+#banner .banner-text h4 {
+	font-size: 36px;
+}   
+#banner .text h6 {
+	padding-bottom: 20px;
+	font-size: 16px;
+	line-height: 18px;
+}
+#banner .text p {
+	padding-bottom: 20px;
+	font-size: 14px;
+	line-height: 18px;
+}  
+#banner .lear-more {
+	position: relative;
+	top: 0;
+}
+.lear-more .hp {
+	font-size: 15px;
+	padding: 10px 24px;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page2 part css*/
+.slide-item .text h2 {
+	font-size: 150px;
+}
+.slide-item .text h4 {
+	font-size: 55px;
+	line-height: 71px;
+	margin-bottom: 30px;
+}
+.slide-item .text p {
+	font-size: 14px;
+	line-height: 20px;
+}
+.slide-item .text a {
+	font-size: 15px;
+	padding: 10px 24px;
+}
+ .slide-item .img {
+     padding-left: 30px;
+}
+.page2 .lear-more {
+	position: relative;
+	top: 180px;
+}  
+.carousel-indicators button .h3-font {
+	font-size: 70px;
+	line-height: 67px;
+}  
+.carousel-indicators button .h6-font {
+	font-size: 18px;
+	line-height: 23px;
+}   
+.icons .fan {
+	top: 0;
+}   
+.icons .cloud {
+	top: 27%;
+}   
+.carousel-indicators {
+	bottom: -168px;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page3 part css*/
+.page3 .text h4 {
+	font-size: 36px;
+    padding-top: 40px;
+} 
+.page3 .text h6 {
+	font-size: 14px;
+	line-height: 18px;
+	padding-bottom: 20px;
+}
+.page3 .text p {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 36px;
+	padding-bottom: 35px;
+}  
+.page3 .project-item p {
+	font-size: 14px;
+	line-height: 20px;
+} 
+.page3 .lear-more {
+	position: relative;
+	top: 110px;
+}
+  
+ 
+    
+    
+    
+    
+    
+    
+/*Page4 part css*/
+.page4 .title h4 {
+	font-size: 36px;
+}
+.page4 .form-label {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #000;
+}
+.page4 .form-control {
+	font-size: 18px;
+	height: 45px;
+    border-radius: 13px;
+}  
+.page4 .btn {
+	font-size: 14px;
+	height: 45px;
+}  
+.page4 .left h4 {
+	font-size: 36px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}  
+.page4 .image-upload h5 {
+	font-size: 18px;
+	line-height: 23px;
+}   
+.page4 .left p {
+	font-size: 14px;
+	line-height: 20px;
+}
+.page4 .left h6 {
+	font-size: 14px;
+	padding-top: 0px;
+}  
+.right-r .img .w-100 {
+	width: 82% !important;
+} 
+.lear-more {
+	position: relative;
+	top: -27px;
+}
+.page4 .image-upload {
+	margin-bottom: 30px;
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page5 part css*/
+.page5 .title h4 {
+	font-size: 36px;
+}  
+.page5 .title h6 {
+	font-size: 14px;
+	line-height: 24px;
+}
+.page5 .title p {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 72px;
+    padding-bottom: 25px;
+} 
+.page5 .donation-item .text {
+	top: 66%;
+}  
+.page5 .donation-item .text h5 {
+	font-size: 36px;
+}  
+.page5 .donation-item .text h6 {
+	font-size: 18px;
+    line-height: 24px;
+}  
+.page5 .donation-item p {
+	font-size: 14px;
+	line-height: 20px;
+}
+.page5 .donation-item .w-100 {
+	width: 90% !important;
+}
+.page5 .lear-more {
+	position: relative;
+	top: 15px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page6 part css*/
+.page6 .fild h4 {
+	font-size: 36px;
+}  
+.page6 .fild h6 {
+	font-size: 14px;
+	line-height: 20px;
+}  
+.page6 .fild p {
+	font-size: 14px;
+	line-height: 20px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*Page7 part css*/
+.page7 .footer-item li a {
+	font-size: 11px;
+	line-height: 24px;
+}
+.page7 .footer-item h6 {
+	font-size: 16px;
+	line-height: 30px;
+} 
+.page7 .footer-item ul {
+	padding: 0px 40px;
+}  
+.page7 .f-logo {
+	width: 200px;
+} 
+.page7 a i {
+	width: 35px;
+	height: 35px;
+	font-size: 17px;
+	line-height: 32px;
+}   
+.page7 .copy-text p {
+	font-size: 12px;
+	line-height: 20px;
+}  
+.page7 .copy-text {
+	padding-top: 15px;
+	padding-bottom: 15px;
+} 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
